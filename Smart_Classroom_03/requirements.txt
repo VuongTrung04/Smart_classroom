@@ -1,0 +1,9 @@
+# Dùng Python 3.10 / 3.11 / 3.12 (mediapipe 0.10.21 CHƯA hỗ trợ Python 3.13)
+PySide6>=6.6,<7
+numpy>=1.24,<2
+# mediapipe cần bản contrib của OpenCV; không cài song song nhiều bản OpenCV khác phiên bản
+opencv-contrib-python==4.10.0.84
+mediapipe==0.10.21
+ultralytics>=8.3,<9
+pyautogui>=0.9.54
+pywin32>=306; sys_platform == "win32"

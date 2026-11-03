@@ -1,0 +1,24 @@
+# Smart Classroom - Requirements
+# Python 3.10, 3.11, hoặc 3.12 (mediapipe 0.10.21 chưa hỗ trợ Python 3.13)
+
+PySide6>=6.6,<7
+numpy>=1.24,<2
+
+# mediapipe cần bản contrib của OpenCV; không cài song song nhiều bản OpenCV khác phiên bản
+opencv-contrib-python==4.10.0.84
+mediapipe==0.10.21
+
+# YOLO người phát hiện
+ultralytics>=8.3,<9
+
+# Điều khiển PowerPoint
+pyautogui>=0.9.54
+pywin32>=306; sys_platform == "win32"
+
+# Telegram notification (tuỳ chọn)
+python-telegram-bot>=20.0
+
+# FastAPI (cho version web/Pi4)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+websockets>=12.0
